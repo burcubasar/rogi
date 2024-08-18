@@ -16,7 +16,7 @@ def load_df(data_path, train=True):
 
 
 if __name__ == "__main__":
-    path = r'C:\Users\basarb3\OneDrive - Medtronic PLC\Desktop'
+    path = r'C:\Users\basarb3\ML-fun\rogi'
     df = load_df(path)
     X = df.loc[:, df.columns != 'status']
     y = df.loc[:, df.columns == 'status']
